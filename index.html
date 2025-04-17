@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" id="display" placeholder="enter city name" />
+        <!-- place icon here -->
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <div class="logo">
+          <!--        
+        <i class="fa-solid fa-circle clr"></i>
+
+    
+        <i class="fa-brands fa-soundcloud cld"></i>
+
+     
+        <i class="fa-solid fa-ellipsis"></i>
+        <i class="fa-solid fa-ellipsis"></i>
+        <i class="fa-solid fa-ellipsis"></i> -->
+
+          <i class="fa-solid fa-sun weather_condition"></i>
+        </div>
+
+        <div class="middle-content">
+          <h2 id="temp">22°C</h2>
+          <h2 id="place">kfar kama</h2>
+        </div>
+
+        <div class="bottom-content">
+          <!-- humidity -->
+
+          <div class="icon-con">
+            <i class="fa-solid fa-droplet icon-img"></i>
+            <div class="f">
+              <h3 id="humidity">50%</h3>
+              <h3>Humidity</h3>
+            </div>
+          </div>
+          <!-- wind -->
+          <div class="icon-con">
+            <i class="fa-solid fa-wind icon-img"> </i>
+            <div class="f">
+              <h3 id="wind">3</h3>
+              <h3>Wind Speed</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- overlap logo images -->

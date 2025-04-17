@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #353535;
+}
+
+.card {
+  background: linear-gradient(50deg, #04ee52, #a200ff);
+  width: 90%;
+  max-width: 500px;
+  margin: 180px auto 0;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  background: #ffffff;
+  padding: 30px 30px;
+  border-radius: 20px;
+  flex: 1;
+  margin-right: 18px;
+  border: 0;
+  outline: 0;
+}
+
+#display {
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.search-icon {
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 13px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 120px;
+}
+
+/* setting here  */
+.logo i {
+  position: absolute; /* Allow positioning */
+}
+/* 
+
+.fa-circle {
+  left: 15px;
+  color: #f1c40f;
+  font-size: 140px; 
+}
+
+
+.fa-soundcloud {
+  color: #3498db;
+  left: 35px;
+  top: -90px;
+  font-size: 140px; 
+}
+
+.fa-ellipsis:nth-child(3) {
+  color: #00c6e9; 
+  top: -5px;
+  font-size: 70px;
+}
+
+.fa-ellipsis:nth-child(4) {
+  color: #00c954; 
+  top: 15px;
+  right: 50px;
+  font-size: 70px;
+}
+.fa-ellipsis:nth-child(5) {
+  color: #9fc204; 
+  top: 35px;
+  left: 140px;
+  font-size: 70px;
+} */
+
+.weather_condition {
+  color: #ffffff;
+  font-size: 140px;
+}
+
+.middle-content {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* #temp {
+  font-weight: 900;
+} */
+
+.bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  color: #8803d4;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.icon-con {
+  /* font-weight: 4 !important; */
+  display: flex;
+  color: #bae6ff;
+  text-align: left;
+}
+
+.icon-img {
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+.f {
+  font-weight: Thin !important;
+  /* font-size: 20px; */
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  display: none;
+}

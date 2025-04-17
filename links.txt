@@ -1,0 +1,13 @@
+https://api.openweathermap.org/data/2.5/weather?q=israel&appid=fd3039323cb7cf5f744a58b07f5bb46c
+
+
+
+key == fd3039323cb7cf5f744a58b07f5bb46c
+
+change city name == Israel
+key 
+
+
+
+16:43 / 41:58
+
